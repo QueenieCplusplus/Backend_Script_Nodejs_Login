@@ -9,6 +9,6 @@ SignUp &amp; LogIn
     
     node app
     
-    and to change the config for DB see
+    and to change the config and table column field for DB see
     
-    cor/poole.js and core/user.js
+    core/poole.js and core/user.js
