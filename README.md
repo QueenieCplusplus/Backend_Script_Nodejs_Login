@@ -11,4 +11,4 @@ SignUp &amp; LogIn
     
     and to change the config for DB see
     
-    core.js and user.js
+    cor/poole.js and core/user.js
