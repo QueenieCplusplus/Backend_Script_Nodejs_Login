@@ -68,6 +68,32 @@ SignUp &amp; LogIn
 # File Uploader Post
 
 
+       var express = require('express');
+       var app = express()
+
+        var fs = require('fs');
+        var im = require('imagemagick');
+
+        var Db = require('mongodb').Db;
+        var dbServer = require('mongodb').Server;
+        var dbConnection = require('mongodb').Connection;
+        var db = new Db('photos', new dbServer('localhost', dbConnection.DEFAULT_PORT, {}));
+        db.open(function(err, db){});
+
+
+        app.use(express.bodyParser())
+
+
+        app.get('/', function(req, res){
+            res.send(
+                '<form action="/upload" method="post" enctype="multipart/form-data">'+
+                '<input type="file" name="source">'+
+                '<input type="submit" value="Upload">'+
+                '</form>'
+            );
+        });
+
+
         app.post('/upload', function(req, res){
             console.log("Received file:\n" + JSON.stringify(req.files));
 
