@@ -38,7 +38,7 @@ SignUp &amp; LogIn
         });
         
         
-        //login.pug
+        //login-form.pug
         
             form(method="post" action="/login")
             table 
@@ -83,6 +83,32 @@ SignUp &amp; LogIn
             });
 
         });
+        
+        
+        // register-form.pug
+        
+        form(method="post" action="/register")
+            table 
+                tr
+                    td Username 
+                    td 
+                        input(type="text" name="username")
+                tr 
+                    td Fullname 
+                    td 
+                        input(type="text" name="fullname")
+                tr 
+                    td Password 
+                    td 
+                        input(type="password" name="password")
+                tr 
+                    td Confirm password 
+                    td 
+                        input(type="password" name="confirm-password")
+                tr 
+                    td
+                    td
+                        input(type="submit" value="Register")
 
 
 # File Uploader Post
