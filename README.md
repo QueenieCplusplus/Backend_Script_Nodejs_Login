@@ -36,6 +36,26 @@ SignUp &amp; LogIn
             })
 
         });
+        
+        
+        //login.pug
+        
+            form(method="post" action="/login")
+            table 
+                tr
+                    td Username 
+                    td 
+                        input(type="text" name="username")
+                tr 
+                    td Password 
+                    td 
+                        input(type="password" name="password")
+                tr 
+                    td
+                    td
+                        input(type="submit" value="Login")
+        
+        
 
 
         // Post register data
