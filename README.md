@@ -8,3 +8,7 @@ SignUp &amp; LogIn
     then 
     
     node app
+    
+    and to change the config for DB see
+    
+    core.js and user.js
