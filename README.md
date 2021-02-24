@@ -1,6 +1,8 @@
 # Backend_Script_Nodejs_Login
 SignUp &amp; LogIn
 
+    使用 npm 之前，都請先至官網下載 Nodejs !
+
     cd to root dir
 
     npm install express express-session mysql pug-cli bcrypt util.promisify
