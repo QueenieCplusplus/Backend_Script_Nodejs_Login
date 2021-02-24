@@ -25,6 +25,13 @@ SignUp &amp; LogIn
   ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/login.png)
   
   ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/db.png)
+  
+  
+# Debug to kill PID
+
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/debug.png)
+  
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/success.png)
     
     
 # 1. npm install mysql & cypoto modules
