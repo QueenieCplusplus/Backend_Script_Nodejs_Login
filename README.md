@@ -29,6 +29,11 @@ SignUp &amp; LogIn
   
 # Debug to kill PID
 
+
+        lsof -i tcp:3000 
+        
+        
+
   ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/debug.png)
   
   ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/success.png)
