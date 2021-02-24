@@ -14,6 +14,19 @@ SignUp &amp; LogIn
     core/poole.js and core/user.js
     
     
+# SignUp & Login   
+
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/index.png)
+  
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/signUp.png)
+  
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/passwrong.png)
+  
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/login.png)
+  
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/db.png)
+    
+    
 # 1. npm install mysql & cypoto modules
 
   ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/mySQL1.png)
