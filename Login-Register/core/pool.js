@@ -3,6 +3,8 @@ const mysql = require('mysql');
 /**
  * Connection to the database.
  *  */
+
+// my sql port 預設為 3306
 const pool = mysql.createPool({
     connectionLimit: 10,
     host: 'localhost',
