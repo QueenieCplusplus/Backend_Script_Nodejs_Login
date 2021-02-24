@@ -21,8 +21,16 @@ SignUp &amp; LogIn
 # 2. check the pool.js to the config is alright!
 
   ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/mySQL2.png)
+  
+# 3. code in user.js, cfrm the codeline shows the encypto instance wrapes the password string.
+
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/encrypt.png) 
+  
+# 4. check the mysql workbench that the passwords from users is all post to DB within Encrytion Wrapper.
+
+  ![](https://raw.githubusercontent.com/QueenieCplusplus/Backend_Script_Nodejs_Login/main/db_pass.png)
     
-    
+   
 # Post login Info
 
 
